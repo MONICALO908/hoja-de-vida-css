@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+}
+.izquierdo {
+    background-color: #01385f;
+    width: 40%;
+    justify-content: start;
+    color: aliceblue;
+}
+.foto {
+    display: flex; 
+    justify-content: center;
+}
+.foto img {
+    background-color: white;
+    height: 30vh;
+    margin-top: 25px;
+    padding: 0 45% 0 45%;
+}
+h3{
+    margin-top: 20px;
+    text-align: center; 
+    
+}
+.contacto {
+    margin-top: 10px;
+    display: flex;
+    height: 20vh;
+}
+.contact-img {
+    display: flex;
+    flex-direction: column; 
+}
+.contact-img img {
+    border-radius: 0 .7rem .7rem 0;
+    padding: 3px 9px 3px 50px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 2rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.contact-p {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 30%;
+
+} 
+p {
+    margin-bottom: 16px;
+}
+.habilidades {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 100%;
+    justify-content:space-around;
+    height: 20vh;
+}
+.software {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.p-habilidades { 
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.p-software {
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.p2, .p3 {
+    align-items: center;
+    padding: 7px;
+    margin-top: 4px;
+}
+
+.clase-habil, .clase-sof {
+    margin-right: 20px;
+    width: 60%;
+    flex-direction: column;
+}
+.porcentaje {
+    align-items: center;
+    padding: 10px;
+    margin-top: 12px;
+}
+.porcentaje-2{
+    align-items: center;
+    padding: 10px;
+    margin-top: 12px;
+
+}
+.habilidad, .softwares {
+    background-color: #033355;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: .5rem;    
+}
+.git {
+    background-color: white;
+    border-radius: .3rem;
+    width: 80%;
+}
+.html {
+    background-color: white;
+    border-radius: .3rem;
+    width: 70%;
+}
+.js {
+    background-color: white;
+    border-radius: .3rem;
+    width: 30%;
+}
+.office {
+    background-color: white;
+    border-radius: .3rem;
+    width: 70%;  
+}  
+.vscode {
+    background-color: white;
+    border-radius: .3rem;
+    width: 70%;  
+
+} 
+   
+.hobbi img {
+    background-color: white;
+    height: 3rem;
+    padding: 4px;
+    margin: 3px 8px 10px 0; 
+
+}
+.hobbi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha {
+    margin: 5px 10px 10px 0;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+
+
+}
+h1 {
+    color: #01385f;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.desarrollo {
+    color: #01385f;
+}
+.informacion, .edu, .expe{
+    background-color: #01385f;
+    color: white;
+    padding: 5px;
+    border-radius: .4rem;
+
+}
+.informacion {
+    width: 250px;
+}
+.edu {
+    width: 250px;
+}
+.expe {
+    width: 250px;
+}
